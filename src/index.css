@@ -1,19 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 
 *{
-  background-color:rgb(218, 160, 160);
+  background-color:thistle;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif;;
 }
-
+#header{
+  width:100%;
+  height:80vh;
+  margin-top:70px;
+}
+#header h1{
+  margin:0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color:darkslategrey;
+}
+#right{
+  height: 500px;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 60px;
+  float: right;
+}
+#header p{
+    color:black;
+    font-size: 18px;
+}
+.btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding:10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:indigo;
+  border:2px solid indigo;
+  text-decoration: none;
+}
+.btn-get-startede{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding:10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: indigo;
+    border:2px solid indigo;
+    text-decoration: none;
+}
+.brand-name{
+     color: rgb(125, 196, 196);
+}
 .navbar{
      background-color: #fff !important;
 }
+.header-bar{
+  color:blue;
+}
 .navbar-brand{
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color:aqua !important;
 }
 .navbar a{
   font-size: 1.3rem;

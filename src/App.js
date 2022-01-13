@@ -14,7 +14,7 @@ const App= () => {
     <>
     <Navbar />
              <center>
-           <h1>     Welcome My Gaming World  </h1>
+           {/* <h1 className="header-bar">     Indian Stock Excahnge  </h1> */}
             {/* <About />
             <Contact />
             <Home />
