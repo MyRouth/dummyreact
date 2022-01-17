@@ -9,6 +9,7 @@ import About from './component/About';
 import Contact from './component/Contact';
 import Service from './component/Service';
 import {Route,Switch} from "react-router-dom";
+// import Access from './component/Access';
 const App= () => {
   return (
     <>
