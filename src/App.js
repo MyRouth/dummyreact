@@ -8,6 +8,7 @@ import Home from './component/Home';
 import About from './component/About';
 import Contact from './component/Contact';
 import Service from './component/Service';
+import Footer from './component/Footer';
 import {Route,Switch} from "react-router-dom";
 // import Access from './component/Access';
 const App= () => {
@@ -31,6 +32,7 @@ const App= () => {
     <Route exact path="/Service" component={Service} />
     <Route exact path="/Contact" component={Contact} />
     </Switch>
+    <Footer />
     </>
   );
 }
