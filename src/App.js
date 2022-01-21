@@ -10,7 +10,8 @@ import Contact from './component/Contact';
 import Service from './component/Service';
 import Footer from './component/Footer';
 import {Route,Switch} from "react-router-dom";
-// import Access from './component/Access';
+import ragistration from './component/ragistration';
+import Access from './component/Access';
 const App= () => {
   return (
     <>
@@ -31,11 +32,11 @@ const App= () => {
     <Route exact path="/About" component={About} />
     <Route exact path="/Service" component={Service} />
     <Route exact path="/Contact" component={Contact} />
+    <Route exact path="/ragistration" component={ragistration} />
     </Switch>
     <Footer />
     </>
   );
 }
-
 export default App
 

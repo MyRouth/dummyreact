@@ -8,7 +8,6 @@ const Home = () =>{
       imgsrc={web}
       visit="/contact"
       btname="Connect to BSE"/>
-
     </>
   );
 }
