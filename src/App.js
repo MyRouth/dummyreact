@@ -10,12 +10,12 @@ import Contact from './component/Contact';
 import Service from './component/Service';
 import Footer from './component/Footer';
 import {Route,Switch} from "react-router-dom";
-import ragistration from './component/ragistration';
+import Ragistration from './component/Ragistration';
 import Access from './component/Access';
 const App= () => {
   return (
     <>
-    <Navbar />
+    <Navbar />    
              <center>
            {/* <h1 className="header-bar">     Indian Stock Excahnge  </h1> */}
             {/* <About />
@@ -32,9 +32,10 @@ const App= () => {
     <Route exact path="/About" component={About} />
     <Route exact path="/Service" component={Service} />
     <Route exact path="/Contact" component={Contact} />
-    <Route exact path="/ragistration" component={ragistration} />
+    <Route exact path="/Ragistration" component={Ragistration} />
     </Switch>
     <Footer />
+    <Ragistration />
     </>
   );
 }
